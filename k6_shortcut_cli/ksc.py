@@ -1,9 +1,9 @@
-from shortcut_mappings import shortcut_mappings as sm
+#!/usr/bin/env python3
 import sys
+from shortcut_mappings import shortcut_mappings as sm
 
 # Minimum buffer between shortcut function and key mapping
 disp_buffer = 3
-
 
 # Displays ALL Keychron K6 shortcut mappings
 def display_all():
@@ -24,9 +24,8 @@ def display_indiv(shortcut):
 
 
 if __name__ == '__main__':
-
     print("== Keychron K6 Shortcut Mappings ==\n")
-    
+
     args = sys.argv
     if len(args) > 2:
         print("Just one argument is fine, thanks...")
