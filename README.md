@@ -7,7 +7,7 @@ Quick and easy command line tool which displays the list of keyboard shortcuts f
 ## Usage:
 
 **Display all mappings**
-`ksc`
+`ksc.py`
 ```
 == Keychron K6 Shortcut Mappings ==
 
@@ -40,7 +40,7 @@ Quick and easy command line tool which displays the list of keyboard shortcuts f
 ```
 
 **Display Individual Shortcut**
-`ksc <shortcut_name>`
+`ksc.py <shortcut_name>`
 ```
 == Keychron K6 Shortcut Mappings ==
 
